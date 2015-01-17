@@ -17,6 +17,28 @@ def login():
     else:
         return redirect('/')
     
+@app.route('/register', methods = ['POST'])
+def register():
+    reg_nameF = request.form['FNAME']
+    reg_nameL = request.form['LNAME']
+    reg_email = request.form['EMAILR']
+    reg_email_conf = request.form['EMAILR1']
+    reg_pass = request.form['PWORD']
+    reg_pass_conf = request.form['PWORD1']
+    
+    if (reg_email != reg_email_conf) or (reg_pass != reg_pass_conf):
+        return redirect('/')
+    
+    print("pretending to add " + str(reg_nameF) + " " + str(reg_nameL))
+    print("email: " + reg_email)
+    print("pass:  " + reg_pass)
+    return redirect('/add')
+
+@app.route('/add')
+def add():
+    return render_template('addClasses.html')
+    
+    
 @app.route('/home')
 def home():
     return render_template('home.html')
