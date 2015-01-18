@@ -1,0 +1,35 @@
+#logo {
+    background-color: black;
+        text-align: center;
+}
+
+#buttons{
+    background-color: 12184a;
+    height: 50px;
+}
+
+#ProfileHome{
+    position: absolute;
+    z-index: 0;
+    width:400px;
+    height: 510px;
+    margin: 40px;
+    border-radius: 10px;
+   
+        
+}
+
+#profilephoto {
+    position: absolute;
+    z-index: 1;
+    margin: 90px;
+    border-radius: 50%; 
+    color:white;
+    font-family: calibri;
+
+}
+
+#homeinfo{
+   font-size:24pt;
+    font-family: calibri;
+}
