@@ -1,0 +1,134 @@
+#logo {
+    background-color: black;
+        text-align: center;
+}
+
+#h1 {
+text-align: left;
+z-index: 1;
+color: #0000FF;
+font-size: 300%;
+font: helvetica;
+
+}
+
+#mainblock{
+	opacity: .65;
+	position: fixed;
+	text-align: right;
+	z-index: 1;
+   top: 200px;
+   right: 10px;
+
+}
+
+#CoECoreRequirements{
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    z-index: 2;
+    color: black;
+  font-size: 150%;
+  text-decoration: none;
+  opacity: 80%;
+
+}
+
+#classname {
+    background-color: #00CCFF;
+    color:black;
+}
+
+#blankbox1 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+    bottom:100px;
+}
+
+#blankbox2 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox3 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox4 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox5 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox6 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox7 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#blankbox8 {
+    background-color:grey;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 750px;
+    height: 150px;
+    font-size: 150%;
+}
+
+#footer {
+    background-color: yellow;        
+ text-align: left;
+    bottom: -1000px;
+    clear: both;
+ position: relative;
+ z-index: 10;
+    color: black;
+      width: 1315;
+    padding: 10px;
+    margin: 0; 
+}

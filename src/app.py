@@ -37,6 +37,10 @@ def register():
 @app.route('/add')
 def add():
     return render_template('addClasses.html')
+
+@app.route('/majors')
+def majors():
+    return render_template('Majorspageremake.html')
     
     
 @app.route('/home')
